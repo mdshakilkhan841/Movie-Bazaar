@@ -13,16 +13,16 @@ body{
     background-color: #04152d;
 }
 
+/* ----remove browser scroll bar ---- */
+::-webkit-scrollbar {
+    display: none;
+  }
+
 /* // * {
 //     margin: 0;
 //     padding: 0;
 //     box-sizing: border-box;
 //   }
-
-//remove browser scroll bar 
-::-webkit-scrollbar {
-    display: none;
-  }
 
 // :root {
 //   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

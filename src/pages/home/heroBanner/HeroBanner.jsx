@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import Img from "../../../components/lazyLoadImage/Img";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import "./heroBanner.css";
+import 'animate.css';
 
 const HeroBanner = () => {
   const [background, setBackground] = useState("");
@@ -38,10 +39,10 @@ const HeroBanner = () => {
 
       <ContentWrapper>
         <div className="max-w-[800px] flex flex-col justify-center items-center m-auto relative bg-opacity-layer text-white text-center ">
-          <span className="md:text-8xl text-5xl font-bold md:mb-3 mb-1">
+          <span className="md:text-8xl text-5xl font-bold md:mb-3 mb-1 animate__animated animate__zoomIn">
             Welcome.
           </span>
-          <span className="subtitle text-lg md:text-2xl leading-none font-medium mb-10">
+          <span className="subtitle text-lg md:text-2xl leading-none font-medium mb-10 animate__animated animate__lightSpeedInLeft">
             Millions of movies, TV shows and people to discover. Explore Now.
           </span>
           <div className="flex justify-center items-center w-full">
