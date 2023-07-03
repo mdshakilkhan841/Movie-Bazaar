@@ -99,20 +99,20 @@ const Header = () => {
                     >
                         <li
                             onClick={() => navigationHandler("movies")}
-                            className={`cursor-pointer hover:text-[#FF00CC] ${mobileMenu ? "w-full h-auto py-4 px-5" : ""
+                            className={`cursor-pointer hover:-text--pink ${mobileMenu ? "w-full h-auto py-4 px-5" : ""
                                 }`}
                         >
                             Movies
                         </li>
                         <li
                             onClick={() => navigationHandler("tv-shows")}
-                            className={`cursor-pointer hover:text-[#FF00CC] ${mobileMenu ? "w-full h-auto py-4 px-5" : ""
+                            className={`cursor-pointer hover:-text--pink ${mobileMenu ? "w-full h-auto py-4 px-5" : ""
                                 }`}
                         >
                             Tv Shows
                         </li>
                         <li
-                            className={`cursor-pointer hover:text-[#FF00CC] ${mobileMenu ? "hidden" : ""
+                            className={`cursor-pointer hover:-text--pink ${mobileMenu ? "hidden" : ""
                                 }`}
                         >
                             <HiOutlineSearch onClick={openSearch} />
@@ -121,7 +121,7 @@ const Header = () => {
                     <div className="md:hidden flex items-center space-x-6 text-lg">
                         <HiOutlineSearch
                             onClick={openSearch}
-                            className="cursor-pointer hover:text-[#FF00CC]"
+                            className="cursor-pointer hover:-text--pink"
                         />
                         {mobileMenu ? (
                             <VscChromeClose
